@@ -1,0 +1,1323 @@
+<!DOCTYPE html>
+<html lang="de">
+	<head>	
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link type="image/x-icon" href="img/favicon.ico" rel="shortcut icon">
+        <link type="Image/x-icon" href="img/favicon.ico" rel="icon">
+    
+        <link rel="stylesheet" href="css/style.min.css?_v=20230923163327">
+    
+        <link rel="preload" fetchpriority="high" as="image" href="img/cover.webp" type="image/webp">
+    
+        <meta property="og:locale" content="de_DE">
+        <meta property="og:type" content="website">
+        <meta property="og:description" content="Wir bringen das Nachtleben auf ein neues Level und verbinden die „Generation Party“ mit den Top Locations in der Umgebung.">
+        <meta property="og:url" content="https://www.luceo.at/">
+        <meta property="og:site_name" content="LUCEO">
+        <title>Luceo - Deine Party App</title>
+    </head>
+
+	<body class="main-body map-body">
+		<header class="page-header">
+			<div class="header-wrapper">
+				<header class="header header-map">
+					<div class="header__container">
+						<a href="index.html" class="header__logo">
+							<svg class="logo" width="94" height="30" viewBox="0 0 812 258" fill="#65EDCA" xmlns="http://www.w3.org/2000/svg">
+								<path fill-rule="evenodd" clip-rule="evenodd" d="M84.1018 249.775C129.826 266.923 182.821 257.275 219.471 220.661C270.628 169.554 270.871 89.2598 220.027 38.4905C168.87 -12.5873 88.2342 -12.863 37.6582 37.8664C0.97538 74.6661 -8.89797 128.146 7.99458 173.77C11.1283 182.232 18.3182 188.668 27.1821 190.37C45.8358 193.948 65.8694 188.567 80.2854 174.166C80.289 174.158 80.2963 174.158 80.2999 174.155L83.3611 171.096C83.3647 171.092 83.3647 171.089 83.3683 171.081C106.485 147.986 106.485 110.403 83.3683 87.304C82.3915 86.328 82.3915 84.7387 83.3683 83.7626C84.3488 82.7866 85.9392 82.783 86.916 83.759C110.033 106.858 147.645 106.858 170.758 83.759C171.735 82.783 173.325 82.783 174.306 83.759C175.282 84.7387 175.286 86.328 174.306 87.304C151.193 110.403 151.193 147.986 174.309 171.085L174.302 171.089C175.235 172.068 175.224 173.618 174.262 174.579C173.3 175.544 171.746 175.555 170.765 174.623L170.761 174.63C147.689 151.575 110.185 151.538 87.0577 174.503L83.706 177.848C69.4461 192.192 64.09 212.054 67.5797 230.573C69.25 239.423 75.6628 246.611 84.1018 249.775ZM596.901 158.2C594.795 162.733 591.883 166.378 588.165 169.135C584.446 171.89 579.877 173.891 574.458 175.136C569.038 176.379 562.609 177 555.172 177C547.289 177 540.39 176.247 534.477 174.735C528.562 173.223 523.635 170.645 519.693 167.002C515.75 163.357 512.817 158.467 510.889 152.337C508.963 146.201 508 138.468 508 129.133C508 119.446 509.031 111.491 511.092 105.267C513.151 99.0438 516.175 94.1355 520.162 90.5345C524.149 86.9361 529.076 84.4457 534.944 83.0684C540.813 81.6886 547.555 81 555.172 81C562.34 81 568.589 81.5773 573.92 82.7345C579.251 83.8891 583.776 85.7996 587.494 88.4661C591.212 91.1351 594.145 94.6222 596.295 98.9351C598.448 103.245 599.834 108.602 600.462 115.001H581.646C581.109 111.18 580.19 108.089 578.894 105.733C577.594 103.38 575.869 101.558 573.719 100.268C571.569 98.9791 568.97 98.1119 565.922 97.6666C562.877 97.2239 559.295 97.0013 555.172 97.0013C550.334 97.0013 546.123 97.3353 542.54 98.0006C538.955 98.6685 535.954 100.11 533.535 102.334C531.116 104.555 529.324 107.802 528.157 112.068C526.996 116.334 526.412 122.022 526.412 129.133C526.412 135.978 526.996 141.49 528.157 145.668C529.324 149.846 531.116 153.069 533.535 155.334C535.954 157.6 538.955 159.111 542.54 159.867C546.123 160.623 550.334 161.001 555.172 161.001C559.295 161.001 562.922 160.755 566.058 160.269C569.195 159.779 571.859 158.822 574.056 157.4C576.25 155.979 578.019 154.022 579.363 151.534C580.707 149.046 581.646 145.756 582.184 141.668H601C600.374 148.156 599.006 153.667 596.901 158.2ZM350.184 82H332V153.635C332 165.435 341.488 175 353.193 175H405V158.555H359.184C354.214 158.555 350.184 154.526 350.184 149.555V82ZM431.238 140.722V84H413V141.119C413 153.431 416.461 162.49 423.383 168.294C430.307 174.098 440.868 177 455.066 177C469.178 177 479.695 174.098 486.617 168.294C493.539 162.49 497 153.431 497 141.119V84H478.897V140.722C478.897 144.769 478.385 148.111 477.364 150.749C476.343 153.388 474.836 155.478 472.838 157.014C470.84 158.554 468.356 159.632 465.384 160.247C462.412 160.864 458.971 161.169 455.066 161.169C451.073 161.169 447.591 160.864 444.616 160.247C441.644 159.632 439.16 158.554 437.162 157.014C435.164 155.478 433.678 153.388 432.701 150.749C431.726 148.111 431.238 144.769 431.238 140.722ZM786.279 155.334C783.83 157.6 780.712 159.111 776.927 159.867C773.142 160.621 768.665 161.001 763.497 161.001C758.332 161.001 753.858 160.621 750.07 159.867C746.285 159.111 743.146 157.6 740.651 155.334C738.158 153.067 736.311 149.844 735.107 145.668C733.903 141.49 733.304 135.978 733.304 129.133C733.304 122.022 733.903 116.334 735.107 112.068C736.311 107.802 738.158 104.555 740.651 102.334C743.146 100.11 746.285 98.6685 750.07 98.0006C753.858 97.3327 758.332 97.0013 763.497 97.0013C768.577 97.0013 773.008 97.3327 776.792 98.0006C780.58 98.6685 783.719 100.134 786.212 102.402C788.707 104.667 790.554 107.91 791.758 112.133C792.962 116.355 793.561 122.022 793.561 129.133C793.561 135.978 792.962 141.49 791.758 145.668C790.554 149.844 788.731 153.067 786.279 155.334ZM727.024 167C731.032 170.645 736.064 173.223 742.122 174.735C748.179 176.247 755.305 177 763.497 177C771.695 177 778.821 176.247 784.876 174.735C790.933 173.223 795.966 170.645 799.974 167C803.982 163.357 806.988 158.467 808.993 152.334C810.996 146.201 812 138.468 812 129.133C812 119.443 810.931 111.488 808.794 105.267C806.656 99.0438 803.535 94.1329 799.439 90.5345C795.343 86.9335 790.264 84.4457 784.209 83.0684C778.152 81.6886 771.249 81 763.497 81C755.661 81 748.734 81.6886 742.724 83.0684C736.71 84.4457 731.657 86.9335 727.558 90.5345C723.459 94.1329 720.344 99.0438 718.206 105.267C716.069 111.488 715 119.443 715 129.133C715 138.468 716.001 146.201 718.004 152.334C720.009 158.467 723.016 163.357 727.024 167ZM637.535 102.334C639.954 100.113 642.955 98.6685 646.54 98.0006C650.123 97.3353 654.332 97.0013 659.172 97.0013C663.295 97.0013 666.877 97.2239 669.922 97.6692C672.97 98.1119 675.566 98.9791 677.719 100.268C679.629 101.413 681.184 103.005 682.424 104.993L630.425 128.595C630.453 121.745 631.025 116.22 632.16 112.068C633.324 107.802 635.116 104.555 637.535 102.334ZM686.184 141.668C685.646 145.756 684.707 149.046 683.361 151.534C682.019 154.022 680.25 155.979 678.053 157.4C675.859 158.824 673.192 159.779 670.058 160.269C666.922 160.755 663.295 161.001 659.172 161.001C654.332 161.001 650.123 160.623 646.54 159.867C642.955 159.111 639.954 157.602 637.535 155.334C635.484 153.414 633.913 150.765 632.765 147.472L704.303 115.004H704.462C703.834 108.602 702.445 103.245 700.295 98.9351C698.145 94.6222 695.212 91.1351 691.494 88.4687C687.776 85.8022 683.251 83.8891 677.92 82.7345C672.589 81.5799 666.34 81 659.172 81C651.555 81 644.813 81.6886 638.944 83.0684C633.076 84.4457 628.149 86.9361 624.162 90.5345C620.175 94.1355 617.151 99.0438 615.089 105.267C613.031 111.491 612 119.446 612 129.136C612 138.468 612.963 146.201 614.889 152.334C616.817 158.467 619.75 163.357 623.693 167.002C627.635 170.645 632.562 173.223 638.474 174.735C644.387 176.247 651.286 177 659.172 177C666.606 177 673.035 176.379 678.458 175.136C683.877 173.891 688.446 171.89 692.165 169.135C695.883 166.378 698.795 162.736 700.901 158.2C703.006 153.667 704.371 148.156 705 141.668H686.184Z" />
+							</svg>
+						</a>
+						<div class="header__menu menu">
+							<div class="icon__wrapper">
+								<div class="menu__icon">
+									<span></span>
+								</div>
+							</div>
+							<nav class="menu__body">
+								<div class="menu__wrapper">
+									<ul class="menu__list">
+										<li>
+											<a href="faq.html" class="menu__link">FAQ</a>
+										</li>
+										<li>
+											<a href="for-business.html" class="menu__link">For Business</a>
+										</li>
+										<li>
+											<a href="contact.html" class="menu__link">Contact</a>
+										</li>
+										<li>
+											<a href="qr.php" class="menu__btn menu__btn--mobile menu__link menu__link--mobile">Download</a>
+										</li>
+									</ul>
+									
+								</div>
+							</nav>
+						</div>
+						<button class="menu__btn menu__btn--desktop menu__link--desktop">
+							Download
+							<span class="qr-span menu-box">
+								<picture><source srcset="img/qr.webp" type="image/webp"><img src="img/qr.png" alt="qr-code" class="menu-box__img"></picture>
+							</span>
+						</button>
+					</div>
+				</header>
+			</div>
+		</header>
+		<main>
+
+			<section class="map-sect">
+					<div id="map"></div>
+                        <button class="button filter-btn hidden">
+                            <img src="img/filter.svg" alt="" width="30px" heigh="30px" class="filter-btn__img">
+                        </button>
+                    <div class="markers__block hide">
+                        <a href="#" class="markers-list__anchor"></a>
+                        <ul class="markers__list"></ul>
+                    </div>
+                    <div class="filter__block hide">
+                        <ul class="filters-list">
+                            <li class="filters-list__item">
+                                <h3 class="filter__name">Musikgenres</h3>
+                                <ul class="music-filter filter-list">
+                                    <li data-id="5" class="music-filter__item filter__item filter__item">Reggae</li>
+                                    <li data-id="6" class="music-filter__item filter__item">Techno</li>
+                                    <li data-id="7" class="music-filter__item filter__item">Goa</li>
+                                    <li data-id="8" class="music-filter__item filter__item">EDM</li>
+                                    <li data-id="9" class="music-filter__item filter__item">Hardstyle</li>
+                                    <li data-id="10" class="music-filter__item filter__item">DnB</li>
+                                    <li data-id="11" class="music-filter__item filter__item">Lounge Music</li>
+                                    <li data-id="12" class="music-filter__item filter__item">Volksmusik</li>
+                                    <li data-id="13" class="music-filter__item filter__item">Schlager</li>
+                                    <li data-id="14" class="music-filter__item filter__item">Hip-Hop</li>
+                                    <li data-id="15" class="music-filter__item filter__item">Indie</li>
+                                    <li data-id="17" class="music-filter__item filter__item">RnB</li>
+                                    <li data-id="20" class="music-filter__item filter__item">Soul</li>
+                                    <li data-id="21" class="music-filter__item filter__item">Ambient</li>
+                                    <li data-id="22" class="music-filter__item filter__item">Balkan</li>
+                                    <li data-id="23" class="music-filter__item filter__item">Pop</li>
+                                    <li data-id="1" class="music-filter__item filter__item">Rock</li>
+                                    <li data-id="2" class="music-filter__item filter__item">House</li>
+                                    <li data-id="4" class="music-filter__item filter__item">Jazz</li>
+                                    <li data-id="26" class="music-filter__item filter__item">90ies</li>
+                                    <li data-id="27" class="music-filter__item filter__item">Reggaeton</li>
+                                    <li data-id="28" class="music-filter__item filter__item">Hits</li>
+                                    <li data-id="29" class="music-filter__item filter__item">Rap</li>
+                                    <li data-id="31" class="music-filter__item filter__item">Urban</li>
+                                    <li data-id="34" class="music-filter__item filter__item">Classics</li>
+                                    <li data-id="35" class="music-filter__item filter__item">Après Ski</li>
+                                </ul>
+                            </li>
+                            <li class="filters-list__item">
+                                <h3 class="filter__name">Vibes</h3>
+                                <ul class="vibes-filter filter-list">
+                                    <li data-id="5" class="vibes-filter__item filter__item  filter__item">Rave</li>
+                                    <li data-id="6" class="vibes-filter__item filter__item">Sommer 🌴</li>
+                                    <li data-id="8" class="vibes-filter__item filter__item">Student:innen</li>
+                                    <li data-id="9" class="vibes-filter__item filter__item">Tanzen 🕺🏼</li>
+                                    <li data-id="11" class="vibes-filter__item filter__item">Entspannt 🥂</li>
+                                    <li data-id="12" class="vibes-filter__item filter__item">Chatting 💬</li>
+                                    <li data-id="13" class="vibes-filter__item filter__item">Karaoke 🎧</li>
+                                    <li data-id="14" class="vibes-filter__item filter__item">Cocktail 🍸</li>
+                                    <li data-id="16" class="vibes-filter__item filter__item">Party 🥳</li>
+                                    <li data-id="17" class="vibes-filter__item filter__item">Exklusiv ✨🍾</li>
+                                    <li data-id="20" class="vibes-filter__item filter__item">Wine & Dine 🍷</li>
+                                    <li data-id="21" class="vibes-filter__item filter__item">Après Ski 🎿</li>
+                                </ul>
+                            </li>
+                            <li class="filters-list__item">
+                                <h3 class="filter__name">Bar / Club</h3>
+                                <ul class="bar_club-filter filter-list">
+                                    <li data-id="1" class="bar_club-filter__item filter__item">Bar</li>
+                                    <li data-id="2" class="bar_club-filter__item filter__item">Pub</li>
+                                    <li data-id="3" class="bar_club-filter__item filter__item">Cocktailbar 🍹</li>
+                                    <li data-id="5" class="bar_club-filter__item filter__item">Rooftopbar 🌃</li>
+                                    <li data-id="6" class="bar_club-filter__item filter__item">Strandbar 🌴🌞</li>
+                                    <li data-id="7" class="bar_club-filter__item filter__item">Club 🪩</li>
+                                    <li data-id="8" class="bar_club-filter__item filter__item">Biergarten 🍺</li>
+                                    <li data-id="9" class="bar_club-filter__item filter__item">Weinbar 🍷</li>
+                                    <li data-id="10" class="bar_club-filter__item filter__item">Sportbar ⚽️🎯</li>
+                                    <li data-id="11" class="bar_club-filter__item filter__item">Uni</li>
+                                    <li data-id="12" class="bar_club-filter__item filter__item">Après Ski Bar 🎿</li>
+                                </ul>
+                            </li>
+                            <li class="filters-list__item">
+                                <h3 class="filter__name">Eintrittpreis</h3>
+                                <ul class="price-filter filter-list">
+                                    <li data-id="0" class="price-filter__item filter__item filter__item--active filter-default">Alle</li>
+                                    <li data-id="1" class="price-filter__item filter__item">€</li>
+                                    <li data-id="2" class="price-filter__item filter__item">€€</li>
+                                    <li data-id="3" class="price-filter__item filter__item">€€€</li>
+                                    <li data-id="4" class="price-filter__item filter__item">€€€€</li>
+                                </ul>
+                            </li>
+                            <li class="filters-list__item">
+                                <h3 class="filter__name">Eintrittsalter</h3>
+                                <ul class="age-filter filter-list">
+                                    <li data-id="16" class="age-filter__item filter__item">16+</li>
+                                    <li data-id="18" class="age-filter__item filter__item">18+</li>
+                                    <li data-id="21" class="age-filter__item filter__item">21+</li>
+                                    <li data-id="25" class="age-filter__item filter__item filter__item--active filter-default">25+</li>
+                                </ul>
+                            </li>
+                            <li class="filters-list__item">
+                                <h3 class="filter__name">Weitere Optionen</h3>
+                                <ul class="other-list filter-list">
+                                    <li data-id="2" class="other-filter__item filter__item">Gastgarten</li>
+                                    <li data-id="3" class="other-filter__item filter__item">WLAN</li>
+                                    <li data-id="4" class="other-filter__item filter__item">Barrierefrei</li>
+                                    <li data-id="5" class="other-filter__item filter__item">Kartenzahlung</li>
+                                    <li data-id="6" class="other-filter__item filter__item">Barzahlung</li>
+                                    <li data-id="8" class="other-filter__item filter__item">Garderobe</li>
+                                    <li data-id="9" class="other-filter__item filter__item">Pool</li>
+                                    <li data-id="10" class="other-filter__item filter__item">Live-Musik</li>
+                                    <li data-id="11" class="other-filter__item filter__item">Live-DJ</li>
+                                    <li data-id="12" class="other-filter__item filter__item">Tanzfläche</li>
+                                    <li data-id="13" class="other-filter__item filter__item">Parkmöglichkeiten</li>
+                                    <li data-id="14" class="other-filter__item filter__item">Karaoke</li>
+                                    <li data-id="15" class="other-filter__item filter__item">Raucherbereich</li>
+                                    <li data-id="16" class="other-filter__item filter__item">Essen und Snacks</li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <div class="filter__btn-wrapper">
+                            <button class="button filter__btn filter__btn--clear">Delete all filters</button>
+                            <button class="button filter__btn filter__btn--apply">Apply</button>
+                        </div>
+                    </div>
+                    <button class="button map-btn hidden">Search in this area</button>
+			</section>
+
+
+		</main>
+		<div class="footer-background-full">
+            <footer class="page-footer">
+    <div class="footer-wrapper">
+        <div class="container">
+            <div class="footer-flex">
+                <div class="page-footer__contacts">
+                    <h3 class="footer-contacts__header">
+                        Get in touch
+                    </h3>
+                    <span class="footer-contacts__big-text">
+                        info@luceo.com
+                    </span>
+                    <span class="footer-contacts__big-text">
+                        +43 1 36436-0
+                    </span>
+                    <button class="menu__btn menu__btn--desktop menu__link--desktop menu__link--desktop4">
+                        Download app
+                        <span class="qr-span qr-span4 menu-box">
+                            <picture><source srcset="img/qr.webp" type="image/webp"><img src="img/qr.png" alt="qr-code" class="menu-box__img"></picture>
+                        </span>
+                    </button>
+                    <a class="button download-btn  download-btn--mobile footer-btn">Download app</a>
+                </div>
+                <div class="page-footer__subscribe">
+                    <h3 class="footer-subscribe__header">
+                        Newsletter
+                    </h3>
+                    <article class="footer-subscribe__article">
+                        Melde Dich bei unserem Newsletter an um auf dem Laufenden zu bleiben
+                    </article>
+                    <form class="form" method="post" >
+                        <input type="hidden" value="1" name="id">
+                        <input name="email-address" type="email" class="footer-input" placeholder="Deine E-Mail" required>
+                        <span class="footer-input-rules">Durch die Anmeldung  akzeptierst DU unsere Datenschutz- und Nutzungsbedingungen</span>
+                        <button type="submit" class="button download-btn footer-btn-sub">Subscribe</button>
+                    </form>
+                    
+                    <div class="footer-subscribe__social">
+                        <li class="footer-social-list social-list">
+                            <ul class="social-list__item">
+                                <a href="https://www.facebook.com/luceoat" target="_blank" class="footer-social social-facebook">
+                                    <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M24.75 12.0732C24.75 5.44624 19.377 0.0732422 12.75 0.0732422C6.123 0.0732422 0.75 5.44624 0.75 12.0732C0.75 18.0632 5.138 23.0272 10.875 23.9272V15.5422H7.828V12.0722H10.875V9.43024C10.875 6.42324 12.667 4.76124 15.408 4.76124C16.72 4.76124 18.094 4.99624 18.094 4.99624V7.94924H16.58C15.089 7.94924 14.624 8.87424 14.624 9.82324V12.0732H17.952L17.42 15.5432H14.624V23.9282C20.362 23.0272 24.75 18.0622 24.75 12.0732Z" fill="white"/>
+                                    </svg>
+                                </a>
+                            </ul>
+                            <ul class="social-list__item">
+                                <a href="https://www.linkedin.com/company/luceoat/" target="_blank" class="footer-social social-linkedin">
+                                    <svg fill="#000000" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="25px" height="25px">
+                                        <path xmlns="http://www.w3.org/2000/svg" d="M 25 2 C 12.309295 2 2 12.309295 2 25 C 2 37.690705 12.309295 48 25 48 C 37.690705 48 48 37.690705 48 25 C 48 12.309295 37.690705 2 25 2 z M 25 4 C 36.609824 4 46 13.390176 46 25 C 46 36.609824 36.609824 46 25 46 C 13.390176 46 4 36.609824 4 25 C 4 13.390176 13.390176 4 25 4 z M 16 12 C 14.35499 12 13 13.35499 13 15 C 13 16.64501 14.35499 18 16 18 C 17.64501 18 19 16.64501 19 15 C 19 13.35499 17.64501 12 16 12 z M 16 14 C 16.564129 14 17 14.435871 17 15 C 17 15.564129 16.564129 16 16 16 C 15.435871 16 15 15.564129 15 15 C 15 14.435871 15.435871 14 16 14 z M 14 19 A 1.0001 1.0001 0 0 0 13 20 L 13 35 A 1.0001 1.0001 0 0 0 14 36 L 18 36 A 1.0001 1.0001 0 0 0 19 35 L 19 20 A 1.0001 1.0001 0 0 0 18 19 L 14 19 z M 22 19 A 1.0001 1.0001 0 0 0 21 20 L 21 35 A 1.0001 1.0001 0 0 0 22 36 L 26 36 A 1.0001 1.0001 0 0 0 27 35 L 27 27.5 C 27 26.120455 28.120455 25 29.5 25 C 30.879545 25 32 26.120455 32 27.5 L 32 30 L 32 35 A 1.0001 1.0001 0 0 0 33 36 L 37 36 A 1.0001 1.0001 0 0 0 38 35 L 38 26.5 C 38 22.36961 34.63039 19 30.5 19 C 29.213528 19 28.059744 19.41615 27 19.990234 A 1.0001 1.0001 0 0 0 26 19 L 22 19 z M 15 21 L 17 21 L 17 34 L 15 34 L 15 21 z M 23 21 L 25 21 L 25 21.816406 A 1.0001 1.0001 0 0 0 26.693359 22.537109 C 27.684186 21.585305 29.016683 21 30.5 21 C 33.54961 21 36 23.45039 36 26.5 L 36 34 L 34 34 L 34 30 L 34 27.5 C 34 25.029545 31.970455 23 29.5 23 C 27.029545 23 25 25.029545 25 27.5 L 25 34 L 23 34 L 23 21 z" fill="white"/>
+                                    </svg>
+                                </a>
+                            </ul>
+                            <ul class="social-list__item">
+                                <a href="https://www.instagram.com/luceo.at/?hl=de" target="_blank" class="footer-social social-instagram">
+                                    <svg width="24" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M12.75 0C9.49 0 9.083 0.015 7.803 0.072C6.525 0.132 5.655 0.333 4.89 0.63C4.101 0.936 3.431 1.347 2.764 2.014C2.097 2.681 1.685 3.35 1.38 4.14C1.083 4.905 0.881 5.775 0.822 7.053C0.762 8.333 0.75 8.74 0.75 12C0.75 15.26 0.765 15.667 0.822 16.947C0.882 18.224 1.083 19.095 1.38 19.86C1.686 20.648 2.097 21.319 2.764 21.986C3.431 22.652 4.1 23.065 4.89 23.37C5.656 23.666 6.526 23.869 7.803 23.928C9.083 23.988 9.49 24 12.75 24C16.01 24 16.417 23.985 17.697 23.928C18.974 23.868 19.845 23.666 20.61 23.37C21.398 23.064 22.069 22.652 22.736 21.986C23.402 21.319 23.815 20.651 24.12 19.86C24.416 19.095 24.619 18.224 24.678 16.947C24.738 15.667 24.75 15.26 24.75 12C24.75 8.74 24.735 8.333 24.678 7.053C24.618 5.776 24.416 4.904 24.12 4.14C23.814 3.351 23.402 2.681 22.736 2.014C22.069 1.347 21.401 0.935 20.61 0.63C19.845 0.333 18.974 0.131 17.697 0.072C16.417 0.012 16.01 0 12.75 0ZM12.75 2.16C15.953 2.16 16.335 2.176 17.6 2.231C18.77 2.286 19.405 2.48 19.827 2.646C20.389 2.863 20.787 3.123 21.209 3.542C21.628 3.962 21.888 4.361 22.105 4.923C22.269 5.345 22.465 5.98 22.518 7.15C22.575 8.416 22.588 8.796 22.588 12C22.588 15.204 22.573 15.585 22.514 16.85C22.453 18.02 22.258 18.655 22.093 19.077C21.869 19.639 21.614 20.037 21.194 20.459C20.775 20.878 20.37 21.138 19.814 21.355C19.394 21.519 18.749 21.715 17.579 21.768C16.305 21.825 15.93 21.838 12.72 21.838C9.509 21.838 9.134 21.823 7.861 21.764C6.69 21.703 6.045 21.508 5.625 21.343C5.056 21.119 4.665 20.864 4.246 20.444C3.825 20.025 3.556 19.62 3.346 19.064C3.181 18.644 2.987 17.999 2.926 16.829C2.881 15.569 2.865 15.18 2.865 11.985C2.865 8.789 2.881 8.399 2.926 7.124C2.987 5.954 3.181 5.31 3.346 4.89C3.556 4.32 3.825 3.93 4.246 3.509C4.665 3.09 5.056 2.82 5.625 2.611C6.045 2.445 6.676 2.25 7.846 2.19C9.121 2.145 9.496 2.13 12.705 2.13L12.75 2.16ZM12.75 5.838C9.345 5.838 6.588 8.598 6.588 12C6.588 15.405 9.348 18.162 12.75 18.162C16.155 18.162 18.912 15.402 18.912 12C18.912 8.595 16.152 5.838 12.75 5.838ZM12.75 16C10.54 16 8.75 14.21 8.75 12C8.75 9.79 10.54 8 12.75 8C14.96 8 16.75 9.79 16.75 12C16.75 14.21 14.96 16 12.75 16ZM20.596 5.595C20.596 6.39 19.95 7.035 19.156 7.035C18.361 7.035 17.716 6.389 17.716 5.595C17.716 4.801 18.362 4.156 19.156 4.156C19.949 4.155 20.596 4.801 20.596 5.595Z" fill="white"/>
+                                    </svg>
+                                </a>
+                            </ul>
+                            <ul class="social-list__item">
+                                <a href="https://www.tiktok.com/@luceo.at?is_from_webapp=1&sender_device=pc" target="_blank" class="footer-social social-tiktok">
+                                    <svg width="21" height="24" viewBox="0 0 22 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M11.2751 0.02C12.5851 0 13.8851 0.01 15.1851 0C15.2651 1.53 15.8151 3.09 16.9351 4.17C18.0551 5.28 19.6351 5.79 21.1751 5.96V9.99C19.7351 9.94 18.2851 9.64 16.9751 9.02C16.4051 8.76 15.8751 8.43 15.3551 8.09C15.3451 11.01 15.3651 13.93 15.3351 16.84C15.2551 18.24 14.7951 19.63 13.9851 20.78C12.6751 22.7 10.4051 23.95 8.07512 23.99C6.64512 24.07 5.21512 23.68 3.99512 22.96C1.97512 21.77 0.55512 19.59 0.34512 17.25C0.32512 16.75 0.31512 16.25 0.33512 15.76C0.51512 13.86 1.45512 12.04 2.91512 10.8C4.57512 9.36 6.89512 8.67 9.06512 9.08C9.08512 10.56 9.02512 12.04 9.02512 13.52C8.03512 13.2 6.87512 13.29 6.00512 13.89C5.37512 14.3 4.89512 14.93 4.64512 15.64C4.43512 16.15 4.49512 16.71 4.50512 17.25C4.74512 18.89 6.32512 20.27 8.00512 20.12C9.12512 20.11 10.1951 19.46 10.7751 18.51C10.9651 18.18 11.1751 17.84 11.1851 17.45C11.2851 15.66 11.2451 13.88 11.2551 12.09C11.2651 8.06 11.2451 4.04 11.2751 0.02Z" fill="white"/>
+                                    </svg>
+                                </a>
+                            </ul>
+                        </li>
+                    </div>
+                </div>
+            </div>
+            <span class="footer-line"></span>
+                <div class="footer-rules">
+                    <li class="footer-rules-list">
+                        <ul class="list__item footer-rules-list__item">
+                            <a href="privacy.html" class="footer-rules__link">Datenschutz & Cookies</a>
+                        </ul>
+                        <ul class="list__item footer-rules-list__item">
+                            <a href="terms.html" class="footer-rules__link">Nutzungsbedingungen</a>
+                        </ul>
+                        <ul class="list__item footer-rules-list__item">
+                            <a href="impressum.html" class="footer-rules__link">Impressum</a>
+                        </ul>
+                    </li>
+                </div>
+        </div>
+    </div>
+</footer>
+        </div>
+
+		<script src="js/app.min.js?_v=20230923163327"></script>
+        <!-- <script src="js/map.js?_v=20230923163327"></script> -->
+
+		<script>
+
+
+const mapBtn = document.querySelector('.map-btn');
+const filterBtn = document.querySelector('.filter-btn');
+const filterBlock = document.querySelector('.filter__block');
+const filtersList = document.querySelector('.filters-list');
+const filterBtnClear = document.querySelector('.filter__btn--clear');
+const filterBtnApply = document.querySelector('.filter__btn--apply');
+const mapDiv = document.querySelector('#map');
+const markersBlock = document.querySelector('.markers__block');
+const markersList = document.querySelector('.markers__list');
+let coords = {lat: 48.20592641961735, lng: 16.37427497795948};
+let myMarker,
+    map;
+let centerLatLng;
+let newCoords = {};
+let radiusInMeter = 50000;
+let regionCircle;
+let inRangeMarkers = [];
+let data = [];
+let today = new Date();
+const weekDay = getWeekDay(today);
+let weekdays = {
+    "monday": "Montag",
+    "tuesday": "Dienstag",
+    "wednesday": "Mittwochs",
+    "thursday": "Donnerstag",
+    "friday": "Freitag",
+    "saturday": "Samstag",
+    "sunday": "Sonntag"
+};
+let eventElement = '';
+
+//Define facets to search on
+const locationFeatures = {
+        name: "locationFeaturesArray",
+        values: []
+    },
+    locationTypes = {
+        name: "locationTypesArray",
+        values: []
+    },
+    musicStyles = {
+        name: "musicStylesArray",
+        values: []
+    },
+    vibes = {
+        name: "vibesArray",
+        values: []
+    },
+    priceLevel = {
+        name: "priceLevel",
+        values: 4
+    },
+    minAge = {
+        name: "minimumAge",
+        values: 25
+    };
+let facets = [];
+let filteredData;
+let searchId,
+    searchKey = '',
+    musicActiveId = [],
+    vibesActiveId = [],
+    locationActiveId = [],
+    priceActiveId = [],
+    ageActiveId = [],
+    otherActiveId = [];
+const active = (element) => element.classList.contains('filter__item--active'); // Check if at least 1 of list items is active
+let filterState = {
+    'musicIsActive': false,
+    'vibesIsActive': false,
+    'locationIsActive': false,
+    'priceIsActive': false,
+    'ageIsActive': false,
+    'otherIsActive': false,
+    'IsMultiple':   function () {
+                        let count = 0;
+                        for (key in filterState) {
+                            if (filterState[key] === true) {
+                                count++;
+                            }
+                        }
+                        if (count > 1) {
+                            return true
+                        } else {
+                            return false
+                        }
+                    },
+    'isActive':     function () {
+                        let count = 0;
+                        for (key in filterState) {
+                            if (filterState[key] === true) {
+                                count++;
+                            }
+                        }
+                        if (count > 0) {
+                            return true
+                        } else {
+                            return false
+                        }
+    }
+}
+
+
+//-----------------  Recieving customers LAT and LNG
+
+if(navigator.geolocation){
+    navigator.geolocation.getCurrentPosition(function(position){
+        coords.lat = position.coords.latitude;
+        coords.lng = position.coords.longitude;
+        let myLatLng = new google.maps.LatLng(coords.lat, coords.lng);
+        map.panTo(myLatLng);
+
+        // From accuracy check ---------------------------
+        const markerImg = "img/marker.png";
+        updateCenterCoord();
+        myMarker = new google.maps.Marker({
+            position: coords,
+            map,
+            scrollwheel: false,
+            icon: markerImg,
+        });
+        myMarker.setPosition(myLatLng);
+    })
+} else {
+    mapBtn.innerHTML = "Geolocation is not supported";
+    console.log("Geolocation is not supported by this device/browser");
+}
+
+
+
+// ---------- Event for recalulating button on the map -------------------------
+
+filterBtn.addEventListener('click', () => {
+    filterBlock.classList.toggle('hide');
+
+    if(!filterBlock.classList.contains('hide')) {
+        document.querySelector('.filter-btn__img').src = '../img/cross.png'
+    } else {
+        document.querySelector('.filter-btn__img').src = '../img/filter.svg'
+    }
+
+    if(!filterState.isActive()){
+        filterBtnApply.innerHTML = `${data.length} Locals`;
+    }
+})
+
+// ------------------------------------------------------------------------------
+
+
+
+filtersList.addEventListener('click', (e) => {
+    
+    // Highlight active filter buttons
+    if (e.target.classList.contains('filter__item') && !e.target.classList.contains('price-filter__item') && !e.target.classList.contains('age-filter__item')) {
+        e.target.classList.toggle('filter__item--active');
+    } 
+    if (e.target.classList.contains('price-filter__item')) {
+        let priceFilterList = document.querySelectorAll('.price-filter__item');
+        priceFilterList.forEach(item => item.classList.remove('filter__item--active'));
+        e.target.classList.toggle('filter__item--active');
+    } else if (e.target.classList.contains('age-filter__item')) {
+        let ageFilterList = document.querySelectorAll('.age-filter__item');
+        ageFilterList.forEach(item => item.classList.remove('filter__item--active'));
+        e.target.classList.toggle('filter__item--active');
+    }
+
+    searchId = +e.target.dataset.id;
+
+    let activeFilterItem = e.target.classList[0];
+
+    switch (activeFilterItem) {
+        case 'music-filter__item':
+            let musicFilterList = document.querySelectorAll('.music-filter__item');
+                musicFilterList = Array.prototype.slice.call(musicFilterList); // Create an array from pseudo Array for using array method some()
+            
+            setFilterCondition(musicFilterList, 'musicIsActive');
+            setFilterIdsForFacete(e.target, musicStyles, 'musicIsActive');
+            break;
+        case 'vibes-filter__item':
+            let vibesFilterList = document.querySelectorAll('.vibes-filter__item');
+                vibesFilterList = Array.prototype.slice.call(vibesFilterList);
+
+            setFilterCondition(vibesFilterList, 'vibesIsActive');
+            setFilterIdsForFacete(e.target, vibes, 'vibesIsActive');
+            break;
+        case 'bar_club-filter__item':
+            let barClubFilterList = document.querySelectorAll('.bar_club-filter__item');
+            barClubFilterList = Array.prototype.slice.call(barClubFilterList);
+
+            setFilterCondition(barClubFilterList, 'locationIsActive');
+            setFilterIdsForFacete(e.target, locationTypes, 'locationIsActive');
+            break;
+        case 'other-filter__item':
+            let otherFilterList = document.querySelectorAll('.other-filter__item');
+            otherFilterList = Array.prototype.slice.call(otherFilterList);
+
+            setFilterCondition(otherFilterList, 'otherIsActive');
+            setFilterIdsForFacete(e.target, locationFeatures, 'otherIsActive');
+            break;
+        case 'price-filter__item':
+            let priceFilterList = document.querySelectorAll('.price-filter__item');
+            priceFilterList.forEach(item => {
+                if (item.classList.contains('filter__item--active')) {
+                    priceFilterId = +item.dataset.id;
+                }
+            })
+            if (priceFilterId == 0 || priceFilterId == 4) {
+                filterState.priceIsActive = false
+                priceLevel.values = 4;
+            } else  {
+                priceLevel.values = priceFilterId;
+                filterState.priceIsActive = true
+            }
+            break;
+        case 'age-filter__item':
+            let ageFilterList = document.querySelectorAll('.age-filter__item');
+            ageFilterList.forEach(item => {
+                if (item.classList.contains('filter__item--active')) {
+                    ageFilterId = +item.dataset.id;
+                }
+            })
+            if (ageFilterId === 25) {
+                filterState.ageIsActive = false
+            } else {
+                filterState.ageIsActive = true
+                minAge.values = ageFilterId;
+            }
+            break;
+        default:
+            console.log("Can't recieve active filter list");
+            break;
+    }
+
+    checkTimeToDone(); // facetesearch() is inside, for checking filter speed
+    //faceteSearch();
+    filterBtnApply.innerHTML = `${filteredData.length} Locals`;
+})
+
+filterBtnClear.addEventListener('click', () => {
+    filteredData = data;
+
+    clearFacets();
+
+    let filterItems = document.querySelectorAll('.filter__item');
+    let filterItemsDefault = document.querySelectorAll('.filter-default');
+
+    filterItems.forEach(item => item.classList.remove('filter__item--active'));
+    filterItemsDefault.forEach(item => item.classList.add('filter__item--active'));
+    filterBtnApply.innerHTML = `${data.length} Locals`;
+})
+
+filterBtnApply.addEventListener('click', () => {
+    removeMarkers();
+
+    if (markersList.contains(document.querySelector('.markers-list__item'))){
+        document.querySelector('.markers__list').innerHTML = '';
+    }
+
+    drawMarkersAndList(filteredData);
+    filterBlock.classList.toggle('hide');
+    document.querySelector('.filter-btn__img').src = '../img/filter.svg';
+})
+
+
+			
+mapBtn.addEventListener("click", () => {
+    mapBtn.classList.add('hidden');
+    filterBtn.classList.remove('hidden');
+    removeMarkers();
+    mapDiv.appendChild(markersBlock);
+    markersBlock.classList.remove('hide');
+
+    if (markersList.contains(document.querySelector('.markers-list__item'))){
+        document.querySelector('.markers__list').innerHTML = '';
+    }
+
+    // const dbRequest = new XMLHttpRequest();
+
+    
+    // let requestLink = `https://admin.luceo.at/api/radarsearch.php?latitude=${newCoords.lat}&longitude=${newCoords.lng}&kmRange=50`;
+
+    // dbRequest.open('GET', requestLink, true);
+    // dbRequest.withCredentials = true;
+    // dbRequest.send();
+
+    // dbRequest.addEventListener('load', () => {
+        // if(dbRequest.readyState == 4 && dbRequest.status == 200) {
+            // console.log(dbRequest.response);
+            // console.log(JSON.parse(dbRequest.response));
+            // data = JSON.parse(JSON.parse(dbRequest.response));
+
+            // dataClone = JSON.parse(JSON.stringify(data));
+            fetch('places.json').then(response => {
+                return response.json();
+            }).then(dataArray => {
+                return data = dataArray;
+            }).then(data => drawMarkersAndList(data));
+
+
+        // } else {
+        //     console.log('something was wrong');
+        // }
+    // })
+})
+            
+
+window.initMap = initMap;
+
+function initMap() {
+        map = new google.maps.Map(mapDiv, {
+            zoom: 10,
+            center: coords,
+            fullscreenControl: false,
+            streetViewControl: false,
+            zoomControl: true,
+            zoomControlOptions: {
+            position: google.maps.ControlPosition.LEFT_BOTTOM,
+            },
+        });
+
+        mapDiv.appendChild(filterBtn);
+        mapDiv.appendChild(filterBlock);
+
+        let style = [
+            {
+                "featureType": "all",
+                "elementType": "labels.text.fill",
+                "stylers": [
+                {
+                    "color": "#FFFFFF"
+                }
+                ]
+            },
+            {
+                "featureType": "all",
+                "elementType": "labels.text.stroke",
+                "stylers": [
+                {
+                    "visibility": "off"
+                }
+                ]
+            },
+            {
+                "featureType": "all",
+                "elementType": "labels.icon",
+                "stylers": [
+                {
+                    "visibility": "off"
+                }
+                ]
+            },
+            {
+                "featureType": "administrative",
+                "elementType": "geometry.fill",
+                "stylers": [
+                {
+                    "color": "#292B32"
+                }
+                ]
+            },
+            {
+                "featureType": "administrative",
+                "elementType": "geometry.stroke",
+                "stylers": [
+                {
+                    "color": "#292B32"
+                },
+                {
+                    "weight": 1.2
+                }
+                ]
+            },
+            {
+                "featureType": "administrative.locality",
+                "elementType": "geometry.fill",
+                "stylers": [
+                {
+                    "lightness": "-1"
+                }
+                ]
+            },
+            {
+                "featureType": "administrative.neighborhood",
+                "elementType": "labels.text.fill",
+                "stylers": [
+                {
+                    "lightness": "0"
+                },
+                {
+                    "saturation": "0"
+                }
+                ]
+            },
+            {
+                "featureType": "administrative.neighborhood",
+                "elementType": "labels.text.stroke",
+                "stylers": [
+                {
+                    "weight": "0.01"
+                }
+                ]
+            },
+            {
+                "featureType": "administrative.country",
+                "elementType": "geometry.stroke",
+                "stylers": [
+                {
+                    "color": "#ffE5FF2E"
+                }
+                ]
+            },
+            {
+                "featureType": "administrative.land_parcel",
+                "elementType": "labels.text.stroke",
+                "stylers": [
+                {
+                    "weight": "0.01"
+                }
+                ]
+            },
+            {
+                "featureType": "landscape",
+                "elementType": "geometry",
+                "stylers": [
+                {
+                    "color": "#292B32"
+                }
+                ]
+            },
+            {
+                "featureType": "poi",
+                "elementType": "geometry",
+                "stylers": [
+                {
+                    "color": "#151821"
+                }
+                ]
+            },
+            {
+                "featureType": "road",
+                "elementType": "geometry.stroke",
+                "stylers": [
+                {
+                    "visibility": "off"
+                }
+                ]
+            },
+            {
+                "featureType": "road.highway",
+                "elementType": "geometry.fill",
+                "stylers": [
+                {
+                    "color": "#151821"
+                }
+                ]
+            },
+            {
+                "featureType": "road.highway.controlled_access",
+                "elementType": "geometry.stroke",
+                "stylers": [
+                {
+                    "color": "#151821"
+                }
+                ]
+            },
+            {
+                "featureType": "road.arterial",
+                "elementType": "geometry",
+                "stylers": [
+                {
+                    "color": "#151821"
+                }
+                ]
+            },
+            {
+                "featureType": "road.local",
+                "elementType": "geometry",
+                "stylers": [
+                {
+                    "color": "#151821"
+                }
+                ]
+            },
+            {
+                "featureType": "transit",
+                "elementType": "geometry",
+                "stylers": [
+                {
+                    "color": "#151821"
+                }
+                ]
+            },
+            {
+                "featureType": "water",
+                "elementType": "geometry",
+                "stylers": [
+                {
+                    "color": "#151821"
+                }
+                ]
+            }
+            ];
+        
+        map.setOptions({styles: style});
+
+        map.addListener("center_changed", () => {
+            mapDiv.appendChild(mapBtn);
+            mapBtn.classList.remove('hidden');
+            if (typeof myMarker !== "undefined") {
+                updateCenterCoord();
+                myMarker.setPosition(newCoords);
+            }
+        });
+    }
+
+// ------------------------- Functions --------------------------
+
+function drawMarkersAndList (data) {
+                data.forEach((item, counter) => {
+                let coords = {};
+                coords.lat = item.locationLatitude;
+                coords.lng = item.locationLongitude;
+
+                let cityMarker = new google.maps.Marker({
+                    position: coords,
+                    map,
+                    scrollwheel: false,
+                    //title:"Hello World!",
+                    id : item.id,
+                    icon: {
+                        url: 'img/location-pin.svg',
+                        //scaledSize: new google.maps.Size(40, 44)
+                    },
+                });
+                inRangeMarkers.push(cityMarker);
+
+                const markersElement = document.createElement('li');
+                markersElement.classList.add('markers-list__item');
+                //markersElement.setAttribute("data-id", info.id);
+                markersList.appendChild(markersElement);
+
+
+                //--------------- Taking data from JSON database and create a list of places ----------
+
+                let priceSpan;
+                if (item.priceLevel !== 'undefined' && item.priceLevel !== null){
+                    let priceLevel = item.priceLevel;
+                    switch(priceLevel) {
+                        case 1: priceSpan = `<span class="place__price">€</span>`;
+                        break;
+                        case 2: priceSpan = `<span class="place__price">€€</span>`;
+                        break;
+                        case 3: priceSpan = `<span class="place__price">€€€</span>`;
+                        break;
+                        case 4: priceSpan = `<span class="place__price">€€€€</span>`;
+                        break;
+                        default: priceSpan = '';
+                    }
+                }
+
+                // --------------- Price level Block
+
+                let working;
+                if (item.isOpened) {
+                    working = `<p class="place__is-working green-text">Jetzt geöffnet  ${priceSpan}</p>`;
+                } else {
+                    working = `<p class="place__is-working red-text">Geschlossen  ${priceSpan}</p>`;
+                }
+
+                // --------------- Working hours and schedule block
+                
+                let startTime,
+                    endTime,
+                    startTime2,
+                    endTime2;
+                let schedule = item.openingHours;
+                let scheduleParagraph;
+                let additionalInfo;
+
+                if(schedule != null){
+                    scheduleInfo = '';
+                    for (day in schedule) {
+                        e = schedule[day];
+                        let germanDay = weekdays[day];
+                        startTime = e.startTime;
+                        endTime = e.endTime;
+                        startTime2 = e.startTime2;
+                        endTime2 = e.endTime2;
+                        let secondTime = '';
+                        if (startTime2 && endTime2) {
+                            secondTime = `<span class="schedule__time2">${startTime2} - ${endTime2}</span>`
+                        }
+                        if (e.isRestDay != true) {
+                            scheduleInfo += `
+                            <p class="place__schedule-hours">
+                                <span class="schedule__day">${germanDay}</span>    
+                                <span class="schedule__time">${startTime} - ${endTime}</span>
+                                ${secondTime}
+                            </p>
+                            `;
+                        } else {
+                            scheduleInfo += `
+                            <p class="place__schedule-hours">
+                                <span class="schedule__day">${germanDay}</span>    
+                                <span class="red-text">Geschlossen</span>
+                            </p>
+                            `;
+                        }
+                        
+                        if (day == weekDay) {
+                            if (e.isRestDay) {
+                                workHours = 'Geschlossen';
+                            } else {
+                                workHours = `Heute arbeiten: ${startTime} - ${endTime}`;
+                            }
+                        }
+                    }
+                } else {
+                    scheduleInfo = '';
+                    workHours = 'Arbeitszeiten nicht verfügbar'
+                }
+
+                // ------------------- Music styles block
+
+                
+                let musicStyle ='';
+                let musicSpan = '<span class="music-span">Music</span>';
+                const musicStylesArr = item.musicStylesArray;
+                if (musicStylesArr.length > 0) {
+                    musicStylesArr.forEach(item => {
+                        if (musicStyles.values.some(value => {return value == item.id})) {
+                            musicStyle += `<li class="music__item music__item--selected item__id--${item.id}">${item.name}</li>`
+                        } else {
+                            musicStyle += `<li class="music__item item__id--${item.id}">${item.name}</li>`
+                        }
+                    })
+                } else {
+                    musicSpan = '';
+                }
+
+                // ------------------- Vibes styles block
+
+                
+                let vibesStyle ='';
+                let vibesSpan = '<span class="vibes-span">Vibes</span>';
+                const vibesStylesArr = item.vibesArray;
+                if (vibesStylesArr.length > 0) {
+                    vibesStylesArr.forEach(item => {
+                        if (vibes.values.some(value => {return value == item.id})) {
+                            vibesStyle += `<li class="vibes__item vibes__item--selected item__id--${item.id}">${item.name}</li>`
+                        } else {
+                            vibesStyle += `<li class="vibes__item item__id--${item.id}">${item.name}</li>`
+                        }
+                    })
+                } else {
+                    vibesSpan = '';
+                }
+
+                // -------------- Features block
+
+                let feature ='';
+                let featureSpan = '<span class="feature-span">Features</span>';
+                const features = item.locationFeaturesArray;
+                if (features.length > 0) {
+                    features.forEach(item => {
+                        if (locationFeatures.values.some(value => {return value == item.id})) {
+                            feature += `<li class="feature__item feature__item--selected item__id--${item.id}">${item.name}</li>`
+                        } else {
+                            feature += `<li class="feature__item item__id--${item.id}">${item.name}</li>`
+                        }
+                    })
+                } else {
+                    featureSpan = '';
+                }
+
+                // --------------- Location type block
+
+                let locationType ='';
+                let locationTypeSpan = '<span class="locationType-span">Bar / Club</span>';
+                const locationTypesArr = item.locationTypesArray;
+                if (locationTypesArr.length > 0) {
+                    locationTypesArr.forEach(item => {
+                        if (locationTypes.values.some(value => {return value == item.id})) {
+                            locationType += `<li class="location__item location__item--selected item__id--${item.id}">${item.name}</li>`
+                        } else {
+                            locationType += `<li class="location__item item__id--${item.id}">${item.name}</li>`
+                        }
+                        
+                    })
+                } else {
+                    locationTypeSpan = '';
+                }
+                
+
+                // ------------------ Main short information block:  Adress, ZIP, etc.
+
+                let imgUrl = item.locationProfileUrl;
+
+                
+                markersElement.innerHTML = `
+                <div class="place__wrapper place__wrapper-${counter + 1}" data-id="${item.id}">
+                    <span class="img__wrapper">
+                        <picture><source srcset="${imgUrl}" type="image/webp"><img src="${imgUrl}" alt="" class="place__img"></picture>
+                    </span>
+                    <div class="place-content">
+                        <h3 class="place__name name-${counter + 1}">${item.name}</h3>
+                        <p class="place__adress adress-${counter + 1}">${item.street}, ${item.zip} ${item.city}</p>
+                        ${working}
+                        <p class="place__today-working"><span class="place__hours-span">${workHours}</span></p>
+                    </div>
+                    <div class="place__additional-info">
+                        ${scheduleInfo}
+                    </div>
+                    ${musicSpan}
+                    <ul class="place__music">
+                        ${musicStyle}
+                    </ul>
+                    ${vibesSpan}
+                    <ul class="place__vibes">
+                        ${vibesStyle}
+                    </ul>
+                    ${featureSpan}
+                    <ul class="place__features">
+                        ${feature}
+                    </ul>
+                    ${locationTypeSpan}
+                    <ul class="place__location-type">
+                        ${locationType}
+                    </ul>
+                    <span class="guestlist-span">Events</span>
+                    <ul class="place__guestlist">
+                        
+                    </ul>
+                </div>
+                `;
+
+                //------------------- Set counters and classes for additional margins of list-items if adress or place-name is too long
+
+                let nameHeight = document.querySelector('.name-' + (counter + 1)).clientHeight;
+                let adressHeight = document.querySelector('.adress-' + (counter + 1)).clientHeight;
+                if (nameHeight > 16 || adressHeight > 16) {
+                    markersElement.classList.add('markers-list__item--166');
+                }
+                if (nameHeight + adressHeight > 48) {
+                    markersElement.classList.add('markers-list__item--182');
+                }
+
+                let contentHeight = (document.querySelector(`.place__wrapper-${counter + 1}`).clientHeight) + 20;
+
+                //------------------ Markers and list-items events ------------------------------------
+                
+                markersElement.addEventListener('click', () => {
+                    resetMarkerStyle();
+                    cityMarker.setZIndex(10);
+                    cityMarker.setIcon('img/location-pin-active.svg');
+                    if (!markersElement.classList.contains('active-item')) {
+                        document.querySelectorAll('.markers-list__item').forEach(item => item.classList.remove('active-item'));
+                        markersElement.classList.add('active-item');
+                        document.querySelectorAll('.markers-list__item').forEach(item => item.style.maxHeight = '');
+                    } else {
+                        document.querySelectorAll('.markers-list__item').forEach(item => item.classList.remove('active-item'));
+                        document.querySelectorAll('.markers-list__item').forEach(item => item.style.maxHeight = '');
+                    }
+                    if (document.querySelector('.active-item')) {
+                        document.querySelector('.active-item').style.maxHeight = `${contentHeight}px`;
+                    }
+                })
+
+
+
+                google.maps.event.addListener(cityMarker, 'click', () => {
+                document.querySelectorAll('.markers-list__item').forEach(item => item.classList.remove('transitioin-item'));
+                markersElement.classList.add('transitioin-item');
+                document.querySelectorAll('.markers-list__item').forEach(item => item.classList.remove('order-item'));
+                markersElement.classList.add('order-item');
+
+                if (!markersElement.classList.contains('active-item')) {
+                        document.querySelectorAll('.markers-list__item').forEach(item => item.classList.remove('active-item'));
+                        markersElement.classList.add('active-item');
+                        document.querySelectorAll('.markers-list__item').forEach(item => item.style.maxHeight = '');
+                } else {
+                    document.querySelectorAll('.markers-list__item').forEach(item => item.classList.remove('active-item'));
+                    document.querySelectorAll('.markers-list__item').forEach(item => item.style.maxHeight = '');
+                }
+                
+                
+                if (document.querySelector('.active-item')) {
+                        document.querySelector('.active-item').style.maxHeight = `${contentHeight}px`;
+                    }
+
+                let activeListItem = document.querySelector('.active-item');
+                if (activeListItem !== null){
+                    activeListItem.scrollIntoView({block: "center", behavior: "smooth"});
+                }
+                resetMarkerStyle();
+                cityMarker.setZIndex(10);
+                cityMarker.setIcon('img/location-pin-active.svg');
+                });
+
+                // let lastZIndex;
+                // cityMarker.addListener('mouseover', () => {
+                //     //lastZIndex = getZIndex(e);
+                //     //e.setZIndex(10);
+                //    // console.log(cityMarker.getZIndex());
+                    
+                //    cityMarker.setZIndex(100);
+                // })
+                // cityMarker.addListener('mouseout', () => {
+                //     for (i = 0; i < inRangeMarkers.length; i++) {
+                //     inRangeMarkers[i].setZIndex(5 - i);
+                //     }
+                // })
+
+            })
+}
+
+function checkTimeToDone() {
+    const start= new Date().getTime();
+    faceteSearch();
+    const end = new Date().getTime();
+    console.log(`Search Time: ${end - start}ms`);
+}
+
+function checkMarkerInRadius(marker, circle, radius) {
+    const km = radius/1000;
+    let kx = Math.cos(Math.PI * newCoords.lat / 180) * 111;
+    let dx = Math.abs(newCoords.lng - marker.lng) * kx;
+    let dy = Math.abs(newCoords.lat - marker.lat) * 111;
+    return Math.sqrt(dx * dx + dy * dy) <= km;
+}
+
+function removeMarkers() {
+    for (i = 0; i < inRangeMarkers.length; i++) {
+        inRangeMarkers[i].setMap(null);
+    }
+    inRangeMarkers = [];
+} 
+
+function resetMarkerStyle() {
+    for (i = 0; i < inRangeMarkers.length; i++) {
+        inRangeMarkers[i].setIcon('img/location-pin.svg');
+        inRangeMarkers[i].setZIndex(5 - i);
+    }
+}
+
+function updateCenterCoord() {
+    centerLatLng = map.getCenter();
+    newCoords.lat = centerLatLng.lat();
+    newCoords.lng = centerLatLng.lng();
+}
+
+function getWeekDay(date) {
+    let days = ['sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday'];
+    return days[date.getDay()];
+}
+
+function clearFacets() {
+    locationFeatures.values = [];
+    locationTypes.values = [];
+    musicStyles.values = [];
+    vibes.values = [];
+    priceLevel.values = 4;
+    minAge.values = 25;
+}
+
+function setFilterCondition (filterList, filterToggle) {
+    if (filterList.some(active)) {
+        return filterState[filterToggle] = true
+    } else {
+        return filterState[filterToggle] = false
+    }
+    return filterList;
+}
+
+function setFilterIdsForFacete (target, facete, filterToggle) {
+    if (target.classList.contains('filter__item--active')) {
+        facete.values.push(searchId);
+    } else {
+        if (!filterState[filterToggle]) {
+            facete.values.length = 0;
+        } else {
+            facete.values = facete.values.filter(item => (item != searchId));
+        }
+    }
+}
+
+function faceteSearch(){
+    facets.length = 0;
+    facets.push(locationFeatures, locationTypes, musicStyles, vibes);
+
+    // Filter data based on selected facets and additional rules: price, age
+    // filteredData =  JSON.parse(JSON.stringify(data));
+    filteredData = data;
+    facets.forEach(facet => {
+        if (facet.values.length > 0) {
+            filteredData = filteredData.filter(item => item[facet.name].some(value => {
+            return facet.values.includes(value.id)
+            }));
+        }
+
+        if (filterState.priceIsActive) {
+            filteredData = filteredData.filter(item => {
+                if(priceLevel.values >= item.priceLevel  && item.priceLevel != 0) {
+                    return true;
+                }
+            })
+        }
+        if (filterState.ageIsActive) {
+            filteredData = filteredData.filter(item => {
+                const hoursObj = item.openingHours;
+                if(hoursObj !== null && hoursObj[weekDay]) {
+                    const todayObj = hoursObj[weekDay];
+                    if (todayObj.minimumAge === 0 || minAge.values >= todayObj.minimumAge){
+                        return true;
+                    }
+                }
+            })
+        }
+    });
+
+    // Aggregate data to show facet counts
+    // const facetCounts = {};
+    // filteredData.forEach(item => {
+    //     facets.forEach(facet => {
+    //         item[facet.name].forEach(value => {
+    //         if (facetCounts[facet.name] === undefined) {
+    //             facetCounts[facet.name] = {};
+    //         }
+    //         if (facetCounts[facet.name][value.id] === undefined) {
+    //             facetCounts[facet.name][value.id] = 0;
+    //         }
+    //         facetCounts[facet.name][value.id]++;
+    //         });
+    //     });
+    // });
+
+    // console.log("Filtered data:", filteredData);
+    // console.log("Facet counts:", facetCounts);
+    // console.log("Filtered data length:", filteredData.length);
+    return filteredData;
+}
+
+
+
+document.querySelector('.markers__list').addEventListener('click', (e) => {
+    let targetDiv = e.target.closest('.place__wrapper');
+    let locationId = targetDiv.dataset.id;
+    let eventRequestLink = `https://devadmin.luceo.at/api/getEvents.php?id=${locationId}`;
+    let selectedItem = e.target.closest('.markers-list__item');
+    let eventsList = targetDiv.querySelector('.place__guestlist');
+    
+    function deleteEvents () {
+        eventsList.innerHTML = '';
+    }
+    if (eventsList.firstElementChild != null) {
+        setTimeout(deleteEvents, 500);
+    }
+    //eventsList.innerHTML = '';
+
+    if (selectedItem.classList.contains('active-item')) {
+        // fetch(eventRequestLink, {credentials: "include"}).then(response => {
+        fetch('events.json').then(response => {
+            if (response.ok) {
+                return response.json();
+            } else {
+                throw new Error (`Unexpected response status ${response.status} or content type`);
+                return;
+            }
+        }).then(guestlistObj => {
+            const activeEvents = guestlistObj.data.filter((item) => {
+                    if (item.request_link != null && item.request_link != 'undefined' && item.show_browser === 't' && item.guestlist_active === 't') {
+                        return true;
+                    }
+            })
+
+            if (activeEvents.length > 0) {
+                activeEvents.forEach(item => {
+                        const pictureId = item.picture_array.replace(/{|}/g, '').split(',');
+                        //const pictureAdress = `https://devadmin.luceo.at/LuceoPictures/luceocluster/luceopic/Location/${item.ref_location_id}/Events/${pictureId[0]}.jpg`;
+                        const pictureAdress = 'https://api.luceo.at/download.file?locid=ab6368ba-cdb5-48d2-bb08-1697e1b66edc&uid=&path=profile&size=';
+                        const eventDate = item.date_start.replace(/-/g, '.').replace(/(\d+).(\d+).(\d+)/, '$3.$2.$1');
+
+                        eventsList.innerHTML += `<li class="place__guestlist-item">
+                                            <div class="place__guestlist-container">
+                                                <div class="place__guestlist-img-wrapper">
+                                                    <picture><source srcset="${pictureAdress}" type="image/webp"><img src="${pictureAdress}" class="place__guestlist-img"></picture>
+                                                </div>
+                                                <div class="place__guestlist-content-wrapper">
+                                                    <h3 class="place__gueslist-header">
+                                                    ${item.name}
+                                                    </h3>
+                                                    <span class="place__guestlist-date">${eventDate}</span>
+                                                    <span class="place__guestlist-price"> Eintrittspreis ${item.entrence_fee} €</span>
+                                                    <div class="place__link-wrapper">
+                                                        <a class="place__guestlist-link" href="${item.request_link}" target="_blank">Gästeliste</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>`;
+                })
+            } else {
+                eventsList.innerHTML = `<div class="place__guestlist-container">
+                                                <h3 class="place__gueslist-header">
+                                                    Zurzeit keine Veranstaltungen
+                                                </h3>
+                                            </div>`;
+            }
+
+
+            let activeItem = document.querySelector('.active-item');
+            let newContentHeight = targetDiv.clientHeight + 50;
+            console.log(newContentHeight);
+            activeItem.style.maxHeight = `${newContentHeight}px`;
+        })
+    }
+})
+
+// const request = new XMLHttpRequest();
+// request.open('GET', 'https://devadmin.luceo.at/api/getEvents.php?id=ab6368ba-cdb5-48d2-bb08-1697e1b66edc');
+// request.withCredentials = true;
+// request.send();
+
+// request.onreadystatechange = function() {
+//     if (this.readyState == 4 && this.status == 200) {
+//        console.log(request.response);
+//     }
+// };
+
+
+</script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDGrM9aeXNVdEUDtWA26xsOghq_7wTLmBc&callback=initMap&_v=20230923163327"></script>
+	</body>
+</html>

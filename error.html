@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link type="image/x-icon" href="img/favicon.ico" rel="shortcut icon">
+    <link type="Image/x-icon" href="img/favicon.ico" rel="icon">
+
+    <link rel="stylesheet" href="css/style.min.css?_v=20230923163327">
+
+
+    <link rel="preload" fetchpriority="high" as="image" href="img/cover.webp" type="image/webp">
+
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="Wir bringen das Nachtleben auf ein neues Level und verbinden die „Generation Party“ mit den Top Locations in der Umgebung.">
+    <meta property="og:url" content="https://www.luceo.at/">
+    <meta property="og:site_name" content="LUCEO">
+    <meta property="og:title" content="Luceo - Deine Party App | Error">
+    <script>
+        window.addEventListener('DOMContentLoaded', function() {
+            if (sessionStorage.errorCode == 'undefined') {
+                sessionStorage.errorCode = 'Unknown'
+            }
+            if(sessionStorage.errorMessage && sessionStorage.errorMessage !== '') {
+                document.querySelector('.guestlist__error-heading').textContent = '';
+                document.querySelector('.guestlist__error-text').innerHTML = `You’re Already On The Guestlist<br>And Ready To Party!`;
+                document.querySelector('.error-link').href = `https://wa.me/436763447538?text=I%20am%20experiencing%20an%20issue%20with%20the%20app%20and%20have%20received%20the%20following%20error%20code:%20${sessionStorage.errorMessage}.%20Can%20you%20please%20assist%20me%20in%20resolving%20this%20problem?`;
+            } else {
+                document.querySelector('.guestlist__error-heading').textContent = `Error code: ${sessionStorage.errorCode}`;
+                document.querySelector('.error-link').href = `https://wa.me/436763447538?text=I%20am%20experiencing%20an%20issue%20with%20the%20app%20and%20have%20received%20the%20following%20error%20code:%20${sessionStorage.errorCode}.%20Can%20you%20please%20assist%20me%20in%20resolving%20this%20problem?`;
+            }
+        })
+    </script>
+    
+</head>
+<body class="error-body">
+
+    <main class="error-main">
+        <div class="guestlist__error-wrapper">
+            <div class="guestlist__error-content">
+                <h2 class="guestlist__error-heading">
+                    Error code: 
+                </h2>
+                <div class="guestlist__error-img-wrapper">
+                    <picture><source srcset="img/error-smile.webp" type="image/webp"><img src="img/error-smile.png" alt="Error Image" class="guestlist__error-img"></picture>
+                </div>
+                <div class="guestlist__error-text-wrapper">
+                    <p class="guestlist__error-text">
+                        Lost in space. Party on hold Until we find our way back to earth. 
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+    </main>
+    <div class="error-support-wrapper">
+        <a href="https://wa.me/436763447538" class="guestlist__finally-text-link error-link">
+            Click here for our Whatsapp-Support
+        </a>
+        <img class="guestlist__logo-image" src="img/logo1.svg" alt="" width="80px">
+    </div>
+
+</body>
